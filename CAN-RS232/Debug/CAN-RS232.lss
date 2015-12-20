@@ -528,7 +528,7 @@ Bool initCAN( uint8_t bitrate )
     CANCDMOB = 0x00;  //  disable MOb
   }
 
-  // HAPCAN
+  // HCAN
   CANBT1 = 0x0E;
  312:	8e e0       	ldi	r24, 0x0E	; 14
  314:	80 93 e2 00 	sts	0x00E2, r24
